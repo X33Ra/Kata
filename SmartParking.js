@@ -1,4 +1,4 @@
-const whereCanIPark = function (spots, vehicle) {
+const whereCanIPark = function(spots, vehicle) {
   // Code here!
   for (let y = 0; y < spots.length; y++) {
     for (let x = 0; x < spots[y].length; x++) {
@@ -49,4 +49,4 @@ console.log(whereCanIPark(
     ['S', 'r', 'S', 'M', 'm', 'S']
   ],
   'motorcycle'
-))
+));
